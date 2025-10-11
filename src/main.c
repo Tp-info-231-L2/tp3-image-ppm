@@ -17,7 +17,7 @@ int main(void) {
 
     while (1) {
         printf("ppmviewer> ");
-        fflush(stdout); // s'assurer que ppviewer s'affiche directement.
+        fflush(stdout); // s'assurer que ppmviewer> s'affiche directement.
 
         if (!fgets(input, sizeof(input), stdin)) {
             printf("\nProgramme interrompu.\n");
