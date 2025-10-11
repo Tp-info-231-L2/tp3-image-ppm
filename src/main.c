@@ -17,7 +17,7 @@ int main(void) {
 
     while (1) {
         printf("ppmviewer> ");
-        fflush(stdout);
+        fflush(stdout); // s'assurer que ppviewer s'affiche directement.
 
         if (!fgets(input, sizeof(input), stdin)) {
             printf("\nProgramme interrompu.\n");
@@ -85,7 +85,7 @@ int main(void) {
                 continue;
             }
 
-            char dominante = arg1[0]; // correction ici
+            char dominante = arg1[0];
             int valeur = atoi(arg2);
             foncerEclaircirDominante(dominante, valeur, arg3);
         }
