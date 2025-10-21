@@ -96,3 +96,16 @@ Apprendre à manipuler des fichiers image et à réaliser des traitements simple
 - utilisation de boucles et conditions.  
 
 Ce projet aide à mieux comprendre le fonctionnement des **images numériques** et la **logique du traitement d’image**.
+
+## Organisation du devoir
+
+├── src/ → contient le code source et le Makefile
+│ ├── main.c
+│ ├── ppm_app.c
+│ ├── ppm_app.h
+│ └── makefile
+└── README.md
+
+## Règles de Compilation et d'éxécution
+
+
