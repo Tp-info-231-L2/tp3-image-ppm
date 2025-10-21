@@ -99,29 +99,41 @@ Ce projet aide à mieux comprendre le fonctionnement des **images numériques** 
 
 ## Organisation du devoir
 Le devoir est structuré tel que suit:
-`
+```tp3-image-ppm/
 ├── src/ → contient le code source et le Makefile
 │ ├── main.c
 │ ├── ppm_app.c
 │ ├── ppm_app.h
 │ └── makefile
 └── README.md
-`
+```
+
 
 ## Règles de ⚙️Compilation et d'éxécution
 
 pour compiler le programme, rendez-vous dans le répertoire `src` dans le terminal et entrez la commande:
-`
+```bash
 make
-`
+```
 Une fois le programme compilé, lancez la commande:
-`
+```bash
 ppmviewer.exe 
-`
+```
 Pour supprimer les fichiers objets et l'éxécutable, lancez la commande:
-`
+```
 make clean
-`
+```
+
+
+👥 Auteurs
+```
+-24G2109-KUMBAN Marc Viven Londonbell
+-24F2812-KOUYIM Aminatou Irina
+-24F2907-WANDJI NJAMPOU Lynn Câline
+-24G2657-TCHO PIERRE ANGE
+-24G2534-MINYEMECK BAMA BERNARD ESTIN
+-24F2620-BENGON À MENTONG Zack Carel
+```
 
 
 
